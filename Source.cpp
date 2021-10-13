@@ -2,19 +2,14 @@
 
 using namespace std;
 
-void age(int year)
-{
-	int age;
-	age = 2021 - year;
-	cout << " tuoi cua ban: " << age;
-}
-
-int main()
+void main()
 {
 	int year;
 	cout << "Nhap nam sinh: ";
 	cin >> year;
-	age(year);
+	int age;
+	age = 2021 - year;
+	cout << " tuoi cua ban: " << age;
 
 	return 0;
 }
