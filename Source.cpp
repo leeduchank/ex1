@@ -14,9 +14,17 @@ void main()
 		int age;
 		age = 2021 - year;
 	cout << " tuoi cua ban: " << age << endl << endl;
+	cout << "---------------------------" << endl;
+
 	//Toi them 2 cai endl de no cach cau toi ra nha -nodatai-
-	
-	
+//cau 2 bat dau tu day	
+   char ch;
+   cout<<"Enter a character in lowercase: "; 
+   cin>>ch;
+   ch=ch-32;
+   cout<<"Entered character in uppercase: "<<ch<<endl
+   cout << "---------------------------" << endl;
+
 	//cau 3 bat dau tu day -nodatai-
 	//Cau 3: nhap tien xuat ra to hop tien -nodatai-
 	cout << "Cau 3: Nhap vao so tien, xuat ra to hop cac loai tien \n";
@@ -32,4 +40,6 @@ void main()
 		cout << "5.000:   " << ((((((sotien % 500000) % 200000) % 100000) % 50000) % 20000) % 10000) / 5000 << endl;
 		cout << "2.000:   " << (((((((sotien % 500000) % 200000) % 100000) % 50000) % 20000) % 10000) % 5000) / 2000 << endl;
 		cout << "1.000:   " << ((((((((sotien % 500000) % 200000) % 100000) % 50000) % 20000) % 10000) % 5000) % 2000) / 1000 << endl;
+	        cout << "---------------------------" << endl;
+return 0;
 }
