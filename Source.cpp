@@ -21,6 +21,11 @@ void main()
    char ch;
    cout<<"Enter a character in lowercase: "; 
    cin>>ch;
+   if (ch <97)
+   {
+   cout << " Character has been in uppercase " ;
+   } 
+   else
    ch=ch-32;
    cout<<"Entered character in uppercase: "<<ch<<endl
    cout << "---------------------------" << endl;
