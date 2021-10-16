@@ -1,11 +1,11 @@
-#include <iostream>
+	#include <iostream>
 
 using namespace std;
-//cam on da sua cai code. -nodatai- 
+//cam on da sua cai code. -Truong Minh Tri aka nodatai- 
 void main()
 {	
-	cout << "Nhom 3\n" << "Cau 1:  Le Duc Hanh\n" << "Cau 2:  Chua ai lam\n" << "Cau 3:  Truong Minh Tri\n\n"; //Ai lam cau nao note vao di -nodatai-
-	//Cau 1 Bat dau tu day -leeduchank-
+	cout << "Nhom 3\n" << "Cau 1:  Le Duc Hanh\n" << "Cau 2: Vu Tran Viet Tien\n" << "Cau 3:  Truong Minh Tri\n\n"; //Ai lam cau nao note vao di -nodatai-
+	//Cau 1 bat dau tu day -leeduchank-
 	//Cau 1: Nhap nam sinh, xuat ra tuoi -leeduchank-
 	cout << "Cau 1: Nhap nam sinh, xuat ra tuoi\n";
 		int year;
@@ -16,8 +16,8 @@ void main()
 		cout << " tuoi cua ban: " << age;
 	cout << "---------------------------" << endl << endl;
 
-	//Cau 2 Bat dau tu day	-chuabietailam-
-	//Cau 2: Nhap ky tu, xuat ra ky tu in hoa (cau nay ai lam v note vao di r sua ten tren cai nhom) -chuabietailam-
+	//Cau 2 bat dau tu day	-Tien Vu- 
+	//Cau 2: Nhap ky tu, xuat ra ky tu in hoa -Tien Vu-
 	cout << "Cau 2: Nhap ky tu, xuat ra ky tu in hoa\n";
 		char ch;
 		cout<<"Enter a character in lowercase: "; 
